@@ -1,3 +1,11 @@
+/* Funcionamento
+
+- Encontra o menor elemento do array e troca com o primeiro elemento.
+- Encontra o próximo menor elemento e troca com o segundo elemento.
+- Repete até que todo o array esteja ordenado.
+
+*/
+
 public class Selection_SORT{
     public void Ordenacao_selection(){
       int valor[] = {9,5,8,7,4,6,3,2,1,0};
