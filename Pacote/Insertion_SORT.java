@@ -1,3 +1,10 @@
+/* Funcionamento
+
+- Compara pares adjacentes e troca se estiverem fora de ordem.
+- Após cada passagem, o maior elemento não ordenado "bubbla" para sua posição correta.
+- Continua até que nenhuma troca seja necessária.
+
+*/
 public class Insertion_SORT{
     public void Ordenacao_insertion() {
         int vetor[] = {8,7,1,2,3,6,9,10,15,22,30,11};
