@@ -1,3 +1,11 @@
+/* Funcionamento
+
+- Compara pares adjacentes e troca se estiverem fora de ordem.
+- Após cada passagem, o maior elemento não ordenado "bubbla" para sua posição correta.
+- Continua até que nenhuma troca seja necessária.
+
+*/
+
 public class Bubble_SORT {
     public void Ordenacao_bubble(){
         int vetor[] = {10,1,2,3,1,4,5,6,8,12,15};
